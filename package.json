@@ -1,7 +1,7 @@
 {
   "name": "@fanpian/v-region-update-area",
   "description": "一个简单的中国行政区划组件.从v-region插件来,改变了下数据源.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "fanpian",
   "license": "MIT",
   "main": "dist/v-region.js",
