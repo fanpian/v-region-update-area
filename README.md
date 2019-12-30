@@ -10,7 +10,7 @@
 
 A simple region cascade selector for **Vue2**, provide 4 levels Chinese administrative division data
 
-## 2.2.3 新增
+## 1.0.0 新增
 
 1.增加导出行政区划数据 area
 
