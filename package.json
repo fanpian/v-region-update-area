@@ -10,8 +10,7 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "test:unit": "mocha-webpack --webpack-config webpack.config.js --require tests/unit/setup.js tests/unit/**/*.spec.js",
-    "cover": "cross-env NODE_ENV=coverage nyc --reporter=lcov --reporter=text npm run test:unit",
-    "publish": "npm publish"
+    "cover": "cross-env NODE_ENV=coverage nyc --reporter=lcov --reporter=text npm run test:unit"
   },
   "dependencies": {
     "v-dropdown": "2.1.1"
