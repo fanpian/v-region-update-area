@@ -1,9 +1,10 @@
 {
   "name": "@fanpian/v-region-update-area",
   "description": "一个简单的中国行政区划组件.从v-region插件来,改变了下数据源.",
-  "version": "1.0.1",
+  "version": "0.0.3",
   "author": "fanpian",
   "license": "MIT",
+  "private": false,
   "main": "dist/v-region.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
@@ -71,8 +72,5 @@
     ],
     "instrument": false,
     "sourceMap": false
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   }
 }
