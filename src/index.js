@@ -1,5 +1,6 @@
 import region from "./Region";
 import { srcList, srcProvince, srcCity, srcArea } from "./formatted";
+import { loadTown } from "./helper";
 
 const Plugin = {
   install(Vue, options = {}) {
@@ -32,4 +33,4 @@ const Plugin = {
 
 export default Plugin;
 
-export const area = { srcList, srcProvince, srcCity, srcArea };
+export { srcList, srcProvince, srcCity, srcArea, loadTown };

@@ -71,5 +71,9 @@
     ],
     "instrument": false,
     "sourceMap": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fanpian/v-region-update-area"
   }
 }
